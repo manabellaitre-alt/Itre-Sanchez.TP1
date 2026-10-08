@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RAÍZ & BRASA | Platos principales</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #eee8dc;
+            color: #302d27;
+        }
+
+        header {
+            background-color: #25231e;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-family: Georgia, serif;
+        }
+
+        header p {
+            color: #d7c59d;
+        }
+
+        nav {
+            background-color: #171612;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 9px 14px;
+        }
+
+        nav a:hover {
+            color: #c69b55;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        h2 {
+            text-align: center;
+            font-family: Georgia, serif;
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+
+        li {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px #0002;
+        }
+
+        .contenido {
+            padding: 20px;
+        }
+
+        .contenido h3 {
+            font-family: Georgia, serif;
+            margin: 0 0 10px;
+        }
+
+        .contenido p {
+            line-height: 1.5;
+            margin-bottom: 18px;
+        }
+
+        .contenido img {
+           width: 100%;
+    height: 230px;
+    object-fit: contain;
+    border-radius: 5px;
+    display: block;
+    background-color: #f5f2ec;
+    padding: 8px;
+        }
+
+        .volver {
+            display: block;
+            width: fit-content;
+            margin: 35px auto 0;
+            padding: 12px 22px;
+            background-color: #25231e;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .volver:hover {
+            background-color: #c69b55;
+            color: #171612;
+        }
+
+        @media (max-width: 650px) {
+
+            ul {
+                grid-template-columns: 1fr;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>RAÍZ & BRASA</h1>
+
+        <p>Platos principales</p>
+
+    </header>
+
+
+    <nav>
+
+        <a href="index.html">Inicio</a>
+        <a href="entradas.html">Entradas</a>
+        <a href="principales.html">Principales</a>
+        <a href="guarniciones.html">Guarniciones</a>
+        <a href="bebidas.html">Bebidas</a>
+        <a href="postres.html">Postres</a>
+
+    </nav>
+
+
+    <main>
+
+        <h2>Platos principales</h2>
+
+        <ul>
+
+            <li>
+                <div class="contenido">
+
+                    <h3>Bife de chorizo a la brasa</h3>
+
+                    <p>
+                        Corte de carne vacuna cocinado a la parrilla
+                        para conservar su sabor y jugosidad.
+                    </p>
+
+                    <img src="img/principales/bife.jpg" alt="Bife de chorizo">
+
+                </div>
+            </li>
+
+
+            <li>
+                <div class="contenido">
+
+                    <h3>Asado de tira</h3>
+
+                    <p>
+                        Corte tradicional argentino preparado
+                        lentamente a la brasa.
+                    </p>
+
+                    <img src="img/principales/Asado.jpg" alt="Asado de tira">
+
+                </div>
+            </li>
+
+
+            <li>
+                <div class="contenido">
+
+                    <h3>Pollo de campo a la parrilla</h3>
+
+                    <p>
+                        Pollo marinado con hierbas y cocinado
+                        lentamente a la parrilla.
+                    </p>
+
+                    <img src="img/principales/pollo.jpg" alt="Pollo de campo">
+
+                </div>
+            </li>
+
+
+            <li>
+                <div class="contenido">
+
+                    <h3>Salmón patagónico</h3>
+
+                    <p>
+                        Salmón grillado acompañado con hierbas
+                        frescas y limón.
+                    </p>
+
+                    <img src="img/principales/salmon.jpg" alt="Salmón patagónico">
+
+                </div>
+            </li>
+
+
+            <li>
+                <div class="contenido">
+
+                    <h3>Milanesa de campo</h3>
+
+                    <p>
+                        Milanesa casera de carne vacuna con
+                        rebozado crocante.
+                    </p>
+
+                    <img src="img/principales/milanesa.jpg" alt="Milanesa de campo">
+
+                </div>
+            </li>
+
+
+            <li>
+                <div class="contenido">
+
+                    <h3>Cordero patagónico</h3>
+
+                    <p>
+                        Cordero cocinado lentamente con hierbas
+                        y acompañado con su jugo.
+                    </p>
+
+                    <img src="img/principales/cordero.jpg" alt="Cordero patagónico">
+
+                </div>
+            </li>
+
+
+            <li>
+                <div class="contenido">
+
+                    <h3>Hamburguesa de la casa</h3>
+
+                    <p>
+                        Hamburguesa artesanal de carne vacuna con
+                        pan casero y vegetales.
+                    </p>
+
+                    <img src="img/principales/hamburguesa.jpg" alt="Hamburguesa de la casa">
+
+                </div>
+            </li>
+
+
+            <li>
+                <div class="contenido">
+
+                    <h3>Pesca del día</h3>
+
+                    <p>
+                        Pescado fresco preparado a la parrilla
+                        con hierbas y limón.
+                    </p>
+
+                    <img src="img/principales/pescado.jpg" alt="Pesca del día">
+
+                </div>
+            </li>
+
+        </ul>
+
+
+        <a href="index.html" class="volver">
+            ← Volver al menú principal
+        </a>
+
+    </main>
+
+</body>
+
+</html>

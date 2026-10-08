@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RAÍZ & BRASA | Bebidas</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #eee8dc;
+            color: #302d27;
+        }
+
+        header {
+            background-color: #25231e;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-family: Georgia, serif;
+        }
+
+        header p {
+            color: #d7c59d;
+        }
+
+        nav {
+            background-color: #171612;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 9px 14px;
+        }
+
+        nav a:hover {
+            color: #c69b55;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .seccion {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            text-align: center;
+            font-family: Georgia, serif;
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+
+        li {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px #0002;
+        }
+
+        .contenido {
+            padding: 20px;
+        }
+
+        .contenido h3 {
+            font-family: Georgia, serif;
+            margin: 0 0 10px;
+        }
+
+        .contenido p {
+            line-height: 1.5;
+            margin-bottom: 18px;
+        }
+
+        .contenido img {
+            width: 100%;
+    height: 230px;
+    object-fit: contain;
+    border-radius: 5px;
+    display: block;
+    background-color: #f5f2ec;
+    padding: 8px;
+        }
+
+        .volver {
+            display: block;
+            width: fit-content;
+            margin: 20px auto 0;
+            padding: 12px 22px;
+            background-color: #25231e;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .volver:hover {
+            background-color: #c69b55;
+            color: #171612;
+        }
+       
+
+        @media (max-width: 650px) {
+
+            ul {
+                grid-template-columns: 1fr;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>RAÍZ & BRASA</h1>
+
+        <p>Bebidas</p>
+
+    </header>
+
+
+    <nav>
+
+        <a href="index.html">Inicio</a>
+        <a href="entradas.html">Entradas</a>
+        <a href="principales.html">Principales</a>
+        <a href="guarniciones.html">Guarniciones</a>
+        <a href="bebidas.html">Bebidas</a>
+        <a href="postres.html">Postres</a>
+
+    </nav>
+
+
+    <main>
+
+        <section class="seccion">
+
+            <h2>Bebidas sin alcohol</h2>
+
+            <ul>
+
+                <li>
+                    <div class="contenido">
+
+                        <h3>Limonada de la casa</h3>
+
+                        <p>
+                            Limonada natural preparada con limón, agua
+                            y un toque de menta.
+                        </p>
+
+                        <img src="img/bebidas/Limonada.jpg" alt="Limonada de la casa">
+
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="contenido">
+
+                        <h3>Jugo de naranja</h3>
+
+                        <p>
+                            Jugo natural de naranjas exprimidas al momento.
+                        </p>
+
+                        <img src="img/bebidas/naranja.jpg" alt="Jugo de naranja">
+
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="contenido">
+
+                        <h3>Agua mineral</h3>
+
+                        <p>
+                            Agua mineral disponible con o sin gas.
+                        </p>
+
+                        <img src="img/bebidas/agua.jpg" alt="Agua mineral">
+
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="contenido">
+
+                        <h3>Gaseosa</h3>
+
+                        <p>
+                            Variedad de gaseosas tradicionales.
+                        </p>
+
+                        <img src="img/bebidas/gaseosa.jpg" alt="Gaseosa">
+
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="contenido">
+
+                        <h3>Té de hierbas</h3>
+
+                        <p>
+                            Infusión caliente preparada con hierbas seleccionadas.
+                        </p>
+
+                        <img src="img/bebidas/te.jpg" alt="Té de hierbas">
+
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="contenido">
+
+                        <h3>Licuado de frutos rojos</h3>
+
+                        <p>
+                            Bebida cremosa preparada con frutos rojos y leche.
+                        </p>
+
+                        <img src="img/bebidas/licuado.jpg" alt="Licuado de frutos rojos">
+
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="contenido">
+
+                        <h3>Café</h3>
+
+                        <p>
+                            Café preparado en el momento.
+                        </p>
+
+                        <img src="img/bebidas/cafe.jpg" alt="Café">
+
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="contenido">
+
+                        <h3>Chocolate caliente</h3>
+
+                        <p>
+                            Bebida caliente de chocolate preparada con leche.
+                        </p>
+
+                        <img src="img/bebidas/chocolate.jpg" alt="Chocolate caliente">
+
+                    </div>
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <section class="seccion">
+
+            <h2>Bebidas con alcohol</h2>
+
+            <ul>
+
+                <li>
+                    <div class="contenido">
+
+                        <h3>Malbec</h3>
+
+                        <p>
+                            Vino tinto argentino de sabor intenso y equilibrado.
+                        </p>
+
+                        <img src="img/bebidas/malbec.jpg" alt="Vino Malbec">
+
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="contenido">
+
+                        <h3>Cabernet Sauvignon</h3>
+
+                        <p>
+                            Vino tinto de cuerpo intenso y notas frutales.
+                        </p>
+
+                        <img src="img/bebidas/Cabernet.jpg" alt="Cabernet Sauvignon">
+
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="contenido">
+
+                        <h3>Cerveza artesanal</h3>
+
+                        <p>
+                            Cerveza artesanal servida fría.
+                        </p>
+
+                        <img src="img/bebidas/Cerveza.jpg" alt="Cerveza artesanal">
+
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="contenido">
+
+                        <h3>Fernet con cola</h3>
+
+                        <p>
+                            Combinación tradicional argentina de fernet
+                            y gaseosa cola.
+                        </p>
+
+                        <img src="img/bebidas/Fernet.jpg" alt="Fernet con cola">
+
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="contenido">
+
+                        <h3>Gin tonic</h3>
+
+                        <p>
+                            Gin acompañado con agua tónica y botánicos.
+                        </p>
+
+                        <img src="img/bebidas/gin.jpg" alt="Gin tonic">
+
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="contenido">
+
+                        <h3>Aperitivo de la casa</h3>
+
+                        <p>
+                            Preparación especial de la casa con sabores cítricos.
+                        </p>
+
+                        <img src="img/bebidas/Aperitivo.jpg" alt="Aperitivo de la casa">
+
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="contenido">
+
+                        <h3>Espumante</h3>
+
+                        <p>
+                            Espumante fresco y ligero para acompañar la comida.
+                        </p>
+
+                        <img src="img/bebidas/Espumante.jpg" alt="Espumante">
+
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="contenido">
+
+                        <h3>Vino blanco</h3>
+
+                        <p>
+                            Vino blanco fresco con notas frutales.
+                        </p>
+
+                        <img src="img/bebidas/vino.jpg" alt="Vino blanco" >
+
+                    </div>
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <a href="index.html" class="volver">
+            ← Volver al menú principal
+        </a>
+
+    </main>
+
+</body>
+
+</html>
